@@ -14,31 +14,26 @@
 
     for(let i = 0; i < 1000; i++) {
       const node = document.createElement('div');
-
-<<<<<<< HEAD
-      if (i % 3 === 0 && i % 5 === 0) {
-        node.innerText = 'buzz';
-        node.style.background = "blue";
-        node.style.color = "white";
-=======
+	
       if (i == 0) {
-      	node.innerText = 'Null';
+        node.innerText = 'Null';
       }
 
       else if (i % 3 === 0 && i % 5 === 0) {
-        node.innerText = 'fizzbuzz';
->>>>>>> Fix null case
+        node.innerText = 'buzz';
+        node.style.background = "blue";
+        node.style.color = "white";
+
       }
+
       else if (i % 4 === 0) {
         node.innerText  = 'fizz';
         node.style.background = "brown";
         node.style.color = "white";
         node.innerText = 'fizz';
       }
-      else if (i % 5 === 0) {
-        node.innerText  = 'buzz';
-      }
-      else {
+    
+     else {
         node.innerText = 'None';
         node.style.background = "red";
         node.style.color = "white";
