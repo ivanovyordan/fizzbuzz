@@ -17,12 +17,18 @@
 
       if (i % 3 === 0 && i % 2 === 0) {
         node.innerText = 'fizzbuzz';
+        node.style.background = "yellow";
+        node.style.color = "white";
       }
       else if(i % 3 === 0) {
         node.innerText = 'buzz';
+        node.style.background = "blue";
+        node.style.color = "white";
       }
       else if (i % 2 === 0) {
         node.innerText  = 'fizz';
+        node.style.background = "brown";
+        node.style.color = "white";
       }
       else {
         node.innerText = 'None';
