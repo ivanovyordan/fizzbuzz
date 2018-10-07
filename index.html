@@ -15,18 +15,18 @@
     for(let i = 0; i < 1000; i++) {
       const node = document.createElement('div');
 
-      if (i % 3 === 0 && i % 4 === 0) {
+      if (i % 3 === 0 && i % 5 === 0) {
         node.innerText = 'fizzbuzz';
         node.style.background = "yellow";
         node.style.color = "white";
       }
       else if(i % 3 === 0) {
-        node.innerText = 'buzz';
+        node.innerText = 'fizz';
         node.style.background = "blue";
         node.style.color = "white";
       }
-      else if (i % 4 === 0) {
-        node.innerText  = 'fizz';
+      else if (i % 5 === 0) {
+        node.innerText  = 'buzz';
         node.style.background = "brown";
         node.style.color = "white";
       }
