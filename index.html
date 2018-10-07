@@ -1,19 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Hacktoberfest Fizzbuzz</title>
-  </head>
-  <body>
+</head>
+<body>
     <div id="container"></div>
-  </body>
+    <script charset="utf-8">
+        const container = document.querySelector('#container');
 
-  <script charset="utf-8">
-    const container = document.querySelector('#container');
-
-    for(let i = 0; i < 1000; i++) {
-      const node = document.createElement('div');
+        for (let i = 0; i < 1000; i++) {
+            const node = document.createElement('div');
 
       if (i % 3 === 0 && i % 4 === 0) {
         node.innerText = 'fizzbuzz';
@@ -36,8 +34,9 @@
         node.style.color = "white";
       }
 
-      node.innerText = i + ' - ' + node.innerText;
-      container.appendChild(node);
-    }
-  </script>
+            node.innerText = i + ' - ' + node.innerText;
+            container.appendChild(node);
+        }
+    </script>
+</body>
 </html>
