@@ -15,10 +15,19 @@
     for(let i = 0; i < 1000; i++) {
       const node = document.createElement('div');
 
+<<<<<<< HEAD
       if (i % 3 === 0 && i % 5 === 0) {
         node.innerText = 'buzz';
         node.style.background = "blue";
         node.style.color = "white";
+=======
+      if (i == 0) {
+      	node.innerText = 'Null';
+      }
+
+      else if (i % 3 === 0 && i % 5 === 0) {
+        node.innerText = 'fizzbuzz';
+>>>>>>> Fix null case
       }
       else if (i % 4 === 0) {
         node.innerText  = 'fizz';
