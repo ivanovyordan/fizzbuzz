@@ -1,2 +1,3 @@
 Hacktoberfest Plovdiv Workshop
-hello
+TODO:
+1. Get new HDMI cable
