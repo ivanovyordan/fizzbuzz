@@ -12,20 +12,20 @@
   <script charset="utf-8">
     const container = document.querySelector('#container');
 
-    for(let i = 0; i < 1000; i++) {
+    for(let i = 1; i < 1000; i++) {
       const node = document.createElement('div');
 
-      if (i % 3 === 0 && i % 2 === 0) {
-        node.innerText = 'fizzbuzz';
+      if (i % 3 === 0 && i % 5 === 0) {
+        node.innerText = 'Fizzbuzz';
       }
       else if(i % 3 === 0) {
-        node.innerText = 'buzz';
+        node.innerText = 'Fizz';
       }
-      else if (i % 2 === 0) {
-        node.innerText  = 'fizz';
+      else if (i % 5 === 0) {
+        node.innerText  = 'Buzz';
       }
       else {
-        node.innerText = 'None';
+        node.innerText = i;
       }
 
       node.innerText = i + ' - ' + node.innerText;
