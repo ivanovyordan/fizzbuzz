@@ -1,1 +1,1 @@
-Hacktoberfest Plovdiv Workshop heloo
+Hacktoberfest 2019 Plovdiv Workshop hello
