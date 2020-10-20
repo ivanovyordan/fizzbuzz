@@ -1,1 +1,1 @@
-Hacktoberfest Plovdiv Workshop heloo
+Hacktoberfest Plovdiv Workshop hello
